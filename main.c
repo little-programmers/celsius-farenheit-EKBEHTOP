@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include <assert.h>
 
-// Тут ваш код
+int ctof(float n) {
+	return (9 / 5.0*n) + 32;
+}
+
+int ftoc(float tratatata) {
+	return 5 / 9.0 * (tratatata - 32);
+}
 
 void test_ctof() {
     assert(ctof(0) == 32);
